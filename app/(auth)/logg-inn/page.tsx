@@ -58,8 +58,8 @@ export default function LoginPage() {
               focused ? "ring-2 ring-gold/20 shadow-gold/5" : ""
             }`}
           >
-            {/* Gold top accent */}
-            <div className="h-1 bg-gradient-to-r from-gold via-gold-dark to-gold rounded-t-2xl" />
+            {/* Subtle top accent */}
+            <div className="h-[3px] bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
 
             <div className="p-7">
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -146,11 +146,11 @@ export default function LoginPage() {
 
         {/* Footer text */}
         <div className="mt-8 text-center space-y-3 animate-fade-in stagger-3">
-          <p className="text-xs text-white/25 leading-relaxed">
+          <p className="text-xs text-white/40 leading-relaxed">
             Vi sender en engangskode via SMS til ditt mobilnummer.<br />
             Ingen passord å huske.
           </p>
-          <div className="flex items-center justify-center gap-3 text-xs text-white/20">
+          <div className="flex items-center justify-center gap-3 text-xs text-white/35">
             <span>Personvern</span>
             <span>•</span>
             <span>Vilkår</span>

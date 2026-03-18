@@ -75,7 +75,7 @@ function VerifyContent() {
         {/* OTP card */}
         <div className="animate-slide-up stagger-1">
           <div className="bg-surface rounded-2xl shadow-2xl shadow-black/25">
-            <div className="h-1 bg-gradient-to-r from-gold via-gold-dark to-gold rounded-t-2xl" />
+            <div className="h-[3px] bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
 
             <div className="p-7">
               <div className="space-y-6">
@@ -156,7 +156,7 @@ function VerifyContent() {
           >
             ← Tilbake til innlogging
           </button>
-          <div className="flex items-center justify-center gap-3 text-xs text-white/20 mt-4">
+          <div className="flex items-center justify-center gap-3 text-xs text-white/35 mt-4">
             <span>Personvern</span>
             <span>•</span>
             <span>Vilkår</span>
