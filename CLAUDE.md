@@ -39,6 +39,11 @@ Vercel. Required env vars:
 - Fonts: Bricolage Grotesque (headings), Figtree (body)
 - API routes serve both web (cookie auth) and mobile (bearer auth)
 
+## Git remotes
+- `origin` — `git@github.com:frontkom/plussmobil-mypage.git` (primary)
+- `mirror` — `git@github.com:perandre/plussmobil-mypage.git` (mirror)
+- **Always push to both remotes**: `git push origin main && git push mirror main`
+
 ## Current state
 - Frontend UI built with mock data in `lib/mock-data.ts`
 - No API integration yet (no ERATE_API_KEY)
